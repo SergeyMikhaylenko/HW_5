@@ -13,3 +13,21 @@ for (int index = 0; index < size; index++)
  }
 }
 Console.WriteLine("Количество четных чисел в массиве " + evenArrayElements); 
+
+
+// Через рандом 
+
+// int[] array = new int [10];
+// int size = array.Length;
+// int evenArrayElements=0;
+// for (int index = 0; index < size; index++)
+// {
+// array[index] =new Random().Next(1,10);
+
+// if ((array[index] %2) ==0)
+//  {
+//     evenArrayElements++;
+//  }
+// }
+// Console.WriteLine("Количество четных чисел в массиве " + evenArrayElements);
+// Console.WriteLine($"{String.Join("; ", array )}");
